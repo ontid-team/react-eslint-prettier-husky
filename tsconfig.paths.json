@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["./src/assets/*"],
+      "@context": ["./src/context/index.ts"],
+      "@data/*": ["./src/data/*"],
+      "@entities/*": ["./src/entities/*"],
+      "@helpers": ["./src/helpers/index.ts"],
+      "@hooks": ["./src/hooks/index.ts"],
+      "@layouts": ["./src/layouts/index.ts"],
+      "@libs": ["./src/libs/index.ts"],
+      "@modules/*": ["./src/modules/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@routes": ["./src/routes/index.ts"],
+      "@services/*": ["./src/services/*"],
+      "@store/*": ["./src/store/*"],
+      "@ui": ["./src/ui/index.ts"],
+      "@utility-types": ["./src/utility-types/index.ts"],
+      "@utils": ["./src/utils/index.ts"],
+      "@widgets": ["./src/widgets/index.ts"]
+    }
+  }
+}
